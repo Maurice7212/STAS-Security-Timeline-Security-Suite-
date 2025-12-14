@@ -56,7 +56,7 @@ STAS combines a high-performance C++ analysis engine with a modern PyQt6 Python 
 
 1. Clone the repo
 ```bash
-git clone https://github.com/yourusername/STAS.git
+git clone https://github.com/Maurice7212/STAS-Security-Timeline-Security-Suite-
 cd STAS
 
 Build the C++ engine
@@ -119,5 +119,6 @@ MIT License — feel free to use, modify, and distribute.
 
 STAS — Because your malware deserves a timeline.
 Built with 🔥 by Maurice7212 — December 2025
+
 
 
