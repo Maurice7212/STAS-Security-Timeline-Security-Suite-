@@ -1,0 +1,7 @@
+D:\Projects\STAS\src\cpp\main.cpp;D:\Projects\STAS\build\stas_engine.dir\Release\main.obj
+D:\Projects\STAS\src\cpp\static_analysis.cpp;D:\Projects\STAS\build\stas_engine.dir\Release\static_analysis.obj
+D:\Projects\STAS\src\cpp\dynamic_timeline.cpp;D:\Projects\STAS\build\stas_engine.dir\Release\dynamic_timeline.obj
+D:\Projects\STAS\src\cpp\sandbox.cpp;D:\Projects\STAS\build\stas_engine.dir\Release\sandbox.obj
+D:\Projects\STAS\src\cpp\sqlite_db.cpp;D:\Projects\STAS\build\stas_engine.dir\Release\sqlite_db.obj
+D:\Projects\STAS\src\cpp\risk_scoring.cpp;D:\Projects\STAS\build\stas_engine.dir\Release\risk_scoring.obj
+D:\Projects\STAS\src\cpp\autorun_detector.cpp;D:\Projects\STAS\build\stas_engine.dir\Release\autorun_detector.obj

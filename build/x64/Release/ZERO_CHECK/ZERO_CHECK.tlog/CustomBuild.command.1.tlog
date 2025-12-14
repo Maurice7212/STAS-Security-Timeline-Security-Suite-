@@ -1,0 +1,10 @@
+^D:\PROJECTS\STAS\BUILD\CMAKEFILES\A45875B65897D4DDB9A028A49C352232\GENERATE.STAMP.RULE
+setlocal
+"D:\Microsoft Visual Studio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SD:/Projects/STAS -BD:/Projects/STAS/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/Projects/STAS/build/STAS.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
