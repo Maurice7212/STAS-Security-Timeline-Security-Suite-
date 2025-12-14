@@ -40,7 +40,7 @@ STAS combines a high-performance C++ analysis engine with a modern PyQt6 Python 
 
 ## Screenshots
 
-![STAS Dashboard](D:\Projects\STAS\P1.png)
+![STAS Dashboard](STAS\P1.png)
 
 ## Quick Start
 
@@ -117,3 +117,4 @@ MIT License — feel free to use, modify, and distribute.
 
 STAS — Because your malware deserves a timeline.
 Built with 🔥 by Maurice7212 — December 2025
+
