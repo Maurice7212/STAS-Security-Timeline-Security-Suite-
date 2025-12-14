@@ -1,0 +1,16 @@
+#ifndef GRAPHVIZ_GENERATOR_H
+#define GRAPHVIZ_GENERATOR_H
+
+#include <vector>
+#include <string>
+#include "../dynamic_timeline.h"
+
+class GraphvizGenerator {
+private:
+    std::vector<Event> events;
+public:
+    GraphvizGenerator(const std::vector<Event>& evs);
+    void generateGraph(const std::string& outfile);
+};
+
+#endif

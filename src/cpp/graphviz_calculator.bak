@@ -1,0 +1,14 @@
+#include "graphviz_generator.h"
+#include <graphviz/gvc.h>  // Assuming GraphViz lib
+
+GraphvizGenerator::GraphvizGenerator(const std::vector<Event>& evs) : events(evs) {}
+
+void GraphvizGenerator::generateGraph(const std::string& outfile) {
+    GVC_t* gvc = gvContext();
+    Agraph_t* g = agopen("G", Agdirected, NULL);
+    // Add nodes/edges for processes, files, etc.
+    gvLayout(gvc, g, "dot");
+    gvRenderFilename(gvc, g, "dot", outfile.c_str());
+    agclose(g);
+    gvFreeContext(gvc);
+}
