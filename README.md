@@ -10,6 +10,7 @@ STAS combines a high-performance C++ analysis engine with a modern PyQt6 Python 
 
 ## Features
 
+
 ### Core Engine (C++)
 - **Static Analysis**
   - MD5, SHA1, SHA256 hashing
@@ -40,7 +41,8 @@ STAS combines a high-performance C++ analysis engine with a modern PyQt6 Python 
 
 ## Screenshots
 
-![STAS Dashboard](STAS\P1.png)
+![STAS Dashboard](<img width="960" height="514" alt="P1" src="https://github.com/user-attachments/assets/0678d3e5-b666-42ab-ae79-d0718d7b8661" />
+)
 
 ## Quick Start
 
@@ -117,4 +119,5 @@ MIT License — feel free to use, modify, and distribute.
 
 STAS — Because your malware deserves a timeline.
 Built with 🔥 by Maurice7212 — December 2025
+
 
